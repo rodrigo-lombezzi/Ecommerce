@@ -1,7 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\context\\builders\\pedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\context\\builders\\pedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\objetcs\\dtos\\entities\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\objetcs\\dtos\\entities\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\repositories\\entities\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\repositories\\entities\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\services\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\services\\data\\builders\\pedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\data\\builders\\pedidobuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\services\\entities\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\services\\entities\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\objetcs\\dtos\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\objetcs\\dtos\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\repositories\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\repositories\\interfaces\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\objetcs\\enums\\tipofrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\objetcs\\enums\\tipofrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\objetcs\\enums\\statuspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\objetcs\\enums\\statuspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|c:\\users\\didjtyrjeu\\desktop\\ecommerce\\ecommerce\\objetcs\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5580FC0E-EE09-4455-B573-ED2C26209245}|Ecommerce\\Ecommerce.csproj|solutionrelative:ecommerce\\objetcs\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +71,165 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Services\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Services\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:10:03.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PedidoBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Services\\Data\\Builders\\PedidoBuilder.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\Data\\Builders\\PedidoBuilder.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Services\\Data\\Builders\\PedidoBuilder.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\Data\\Builders\\PedidoBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:09:58.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Startup.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Startup.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Startup.cs",
+              "RelativeToolTip": "Ecommerce\\Startup.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:09:54.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Services\\Entities\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Services\\Entities\\PedidoService.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Services\\Entities\\PedidoService.cs",
+              "RelativeToolTip": "Ecommerce\\Services\\Entities\\PedidoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:08:24.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Context\\builders\\PedidoBuilder.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Context\\builders\\PedidoBuilder.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Context\\builders\\PedidoBuilder.cs",
+              "RelativeToolTip": "Ecommerce\\Context\\builders\\PedidoBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:06:35.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\DTOs\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Objetcs\\DTOs\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\DTOs\\MappingProfile.cs",
+              "RelativeToolTip": "Ecommerce\\Objetcs\\DTOs\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:05:17.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Ecommerce\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:05:13.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Repositories\\Entities\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Repositories\\Entities\\PedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Repositories\\Entities\\PedidoRepository.cs",
+              "RelativeToolTip": "Ecommerce\\Repositories\\Entities\\PedidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:01:40.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "RelativeToolTip": "Ecommerce\\Repositories\\Interfaces\\IPedidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:01:38.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\DTOs\\Entities\\PedidoDTO.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Objetcs\\DTOs\\Entities\\PedidoDTO.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\DTOs\\Entities\\PedidoDTO.cs",
+              "RelativeToolTip": "Ecommerce\\Objetcs\\DTOs\\Entities\\PedidoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:01:12.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TipoFrete.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\Enums\\TipoFrete.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Objetcs\\Enums\\TipoFrete.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\Enums\\TipoFrete.cs",
+              "RelativeToolTip": "Ecommerce\\Objetcs\\Enums\\TipoFrete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:00:24.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatusPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\Enums\\StatusPedido.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Objetcs\\Enums\\StatusPedido.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\Enums\\StatusPedido.cs",
+              "RelativeToolTip": "Ecommerce\\Objetcs\\Enums\\StatusPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:00:14.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Ecommerce\\Objetcs\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\Ecommerce\\Ecommerce\\Objetcs\\Models\\Pedido.cs",
+              "RelativeToolTip": "Ecommerce\\Objetcs\\Models\\Pedido.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:00:06.765Z"
             }
           ]
         }
