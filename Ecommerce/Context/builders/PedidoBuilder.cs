@@ -1,5 +1,7 @@
-﻿using Ecommerce.Objetcs.Models;
+﻿using Ecommerce.Objects.Enums;
+using Ecommerce.Objetcs.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Drawing;
 
 namespace Ecommerce.Objects.Builders.Entities
 {
@@ -21,8 +23,12 @@ namespace Ecommerce.Objects.Builders.Entities
                 .HasColumnType("decimal(18,2)")
                 .IsRequired();
 
-            modelBuilder.Entity<Pedido>().Property(p => p.StatusPedido)
+            modelBuilder.Entity<Pedido>().Property(p => p.TipoFrete)
                 .HasConversion<string>() 
+                .HasMaxLength(50)
+                .IsRequired();
+            modelBuilder.Entity<Pedido>().Property(p => p.StatusPedido)
+                .HasConversion<string>()
                 .HasMaxLength(50)
                 .IsRequired();
         }
