@@ -1,7 +1,7 @@
 ﻿using Ecommerce.Objects.Enums;
 using Ecommerce.Services.Interfaces;
 
-namespace Ecommerce.Services.Strategy.Frete
+namespace Ecommerce.Services.Strategy
 {
     public class FreteTerrestre : IFrete
     {

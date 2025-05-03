@@ -1,14 +1,13 @@
-﻿using Ecommerce.Contexts;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
-using Ecommerce.Contexts;
 using Ecommerce.Repositories.Interfaces;
 using Ecommerce.Services.Entities;
 using Ecommerce.Repositories.Entities;
 using Ecommerce.Services.Interfaces;
-using Ecommerce.Services.Strategy.Frete;
 using Ecommerce.Objects.Enums;
+using Ecommerce.Services.Strategy;
+using Ecommerce.Data;
 
 namespace Ecommerce
 {

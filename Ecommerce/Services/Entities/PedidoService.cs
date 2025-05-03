@@ -38,8 +38,7 @@ namespace Ecommerce.Services.Entities
         }
         public async Task Create(PedidoDTO pedidoDTO)
         {
-            pedidoDTO.ValorTotal = pedidoDTO.Valor
-                + CalculaFrete(pedidoDTO.Valor, pedidoDTO.TipoFrete);
+            pedidoDTO.ValorTotal = pedidoDTO.Valor + CalculaFrete(pedidoDTO.Valor, pedidoDTO.TipoFrete);
 
             var pedido = _mapper.Map<Pedido>(pedidoDTO);
             await _pedidoRepository.Create(pedido);
@@ -48,6 +47,7 @@ namespace Ecommerce.Services.Entities
 
         public async Task Update(PedidoDTO pedidoDTO)
         {
+            pedidoDTO.ValorTotal = pedidoDTO.Valor + CalculaFrete(pedidoDTO.Valor, pedidoDTO.TipoFrete);
             var pedido = _mapper.Map<Pedido>(pedidoDTO);
             await _pedidoRepository.Update(pedido);
         }

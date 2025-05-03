@@ -2,7 +2,7 @@
 using Ecommerce.Objetcs.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Ecommerce.Contexts
+namespace Ecommerce.Data
 {
     public class AppDBContext : DbContext
     {
