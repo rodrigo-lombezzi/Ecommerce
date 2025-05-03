@@ -10,4 +10,8 @@ public interface IPedidoService
     Task Update(PedidoDTO pedido);
     Task Remove(PedidoDTO pedido);
     double CalculaFrete(double valor, TipoFrete tipoFrete);
+    Task SucessoAoPagar(int id);
+    Task CancelarPedido(int id);
+    Task DespacharPedido(int id);
+
 }

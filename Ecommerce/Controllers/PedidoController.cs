@@ -46,7 +46,8 @@ namespace Ecommerce.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] PedidoDTO pedidoDTO)
         {
-            if (pedidoDTO == null || pedidoDTO.Id != id) return BadRequest();
+            var existente = await _pedidoService.GetById(id);
+            if (existente == null) return NotFound();
 
             await _pedidoService.Update(pedidoDTO);
 
@@ -62,6 +63,53 @@ namespace Ecommerce.API.Controllers
             await _pedidoService.Remove(new PedidoDTO { Id = id });
 
             return NoContent();
+        }
+
+        [HttpPut("{id}/pagar")]
+        public async Task<IActionResult> Pagar(int id)
+        {
+            var existente = await _pedidoService.GetById(id);
+            if (existente == null) return NotFound();
+            try
+            {
+                await _pedidoService.SucessoAoPagar(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPut("{id}/cancelar")]
+        public async Task<IActionResult> Cancelar(int id)
+        {
+            var existente = await _pedidoService.GetById(id);
+            if (existente == null) return NotFound();
+            try
+            {
+                await _pedidoService.CancelarPedido(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("{id}/despachar")]
+        public async Task<IActionResult> Despachar(int id)
+        {
+            var existente = await _pedidoService.GetById(id);
+            if (existente == null) return NotFound();
+            try
+            {
+                await _pedidoService.DespacharPedido(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
