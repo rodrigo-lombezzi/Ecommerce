@@ -1,61 +1,66 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
 using Ecommerce.Objetcs.DTOs.Entities;
+using Ecommerce.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Ecommerce.Api.Controllers
+namespace Ecommerce.API.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class PedidoController : ControllerBase
     {
         private readonly IPedidoService _pedidoService;
+        private readonly IMapper _mapper;
 
-        public PedidoController(IPedidoService pedidoService)
+        public PedidoController(IPedidoService pedidoService, IMapper mapper)
         {
             _pedidoService = pedidoService;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<PedidoDTO>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var pedidos = await _pedidoService.GetAll();
-            return Ok(pedidos);
+            var pedidosDTO = await _pedidoService.GetAll();
+            return Ok(pedidosDTO);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<PedidoDTO>> GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
             var pedido = await _pedidoService.GetById(id);
-            if (pedido == null)
-                return NotFound();
+            if (pedido == null) return NotFound();
 
             return Ok(pedido);
         }
-
         [HttpPost]
-        public async Task<ActionResult<PedidoDTO>> Create([FromBody] PedidoDTO pedidoDTO)
+        public async Task<IActionResult> Create([FromBody] PedidoDTO pedidoDTO)
         {
+            if (pedidoDTO == null) return BadRequest();
+  
             await _pedidoService.Create(pedidoDTO);
+
             return CreatedAtAction(nameof(GetById), new { id = pedidoDTO.Id }, pedidoDTO);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] PedidoDTO pedidoDTO)
         {
-            if (id != pedidoDTO.Id)
-                return BadRequest("Id do pedido não corresponde ao DTO.");
+            if (pedidoDTO == null || pedidoDTO.Id != id) return BadRequest();
 
             await _pedidoService.Update(pedidoDTO);
+
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Remove(int id)
         {
-            var pedidoDTO = await _pedidoService.GetById(id);
-            if (pedidoDTO == null)
-                return NotFound();
+            var existente = await _pedidoService.GetById(id);
+            if (existente == null) return NotFound();
 
-            await _pedidoService.Remove(pedidoDTO);
+            await _pedidoService.Remove(new PedidoDTO { Id = id });
+
             return NoContent();
         }
     }

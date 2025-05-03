@@ -6,6 +6,9 @@ using Ecommerce.Contexts;
 using Ecommerce.Repositories.Interfaces;
 using Ecommerce.Services.Entities;
 using Ecommerce.Repositories.Entities;
+using Ecommerce.Services.Interfaces;
+using Ecommerce.Services.Strategy.Frete;
+using Ecommerce.Objects.Enums;
 
 namespace Ecommerce
 {
@@ -50,9 +53,12 @@ namespace Ecommerce
             });
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddScoped<IFrete, FreteAerea>();
+            services.AddScoped<IFrete, FreteTerrestre>();
 
             services.AddScoped<IPedidoRepository, PedidoRepository>();
             services.AddScoped<IPedidoService, PedidoService>();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

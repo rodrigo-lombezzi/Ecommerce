@@ -1,9 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.IO;
-using System.Numerics;
-using System.Xml.Linq;
 using Ecommerce.Objects.Enums;
+using Ecommerce.Services.Interfaces;
 
 namespace Ecommerce.Objetcs.Models
 {
@@ -18,21 +15,18 @@ namespace Ecommerce.Objetcs.Models
         public double Valor { get; set;}
         [Column("ValorTotal")]
         public double ValorTotal { get; set;}
-        [Column("TipoFrete")]
-        public string TipoFrete { get; set; }
-
+ 
         [Column("StatusPedido")]
         public StatusPedido StatusPedido { get; set; }
 
         public Pedido() { }
 
-        public Pedido(int id, string nome, double valor, double valortotal, string tipofrete, StatusPedido statusPedido)
+        public Pedido(int id, string nome, double valor, double valortotal, StatusPedido statusPedido)
         {
             Id = id;
             Nome = nome;
             Valor = valor;
             ValorTotal = valortotal;
-            TipoFrete = tipofrete;
             StatusPedido = statusPedido;
         }
     }
