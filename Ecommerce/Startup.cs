@@ -43,14 +43,6 @@ namespace Ecommerce
                     .AllowCredentials();
             }));
 
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("ApiScope", policy =>
-                {
-                    policy.RequireClaim("scope", "sged");
-                });
-            });
-
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IFrete, FreteAerea>();
             services.AddScoped<IFrete, FreteTerrestre>();
@@ -81,9 +73,6 @@ namespace Ecommerce
             app.UseStaticFiles();
 
             app.UseRouting();
-
-            app.UseAuthentication();
-            app.UseAuthorization();
 
             app.UseCors("MyPolicy");
 

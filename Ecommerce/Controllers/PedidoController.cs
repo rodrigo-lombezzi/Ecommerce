@@ -34,7 +34,7 @@ namespace Ecommerce.API.Controllers
             return Ok(pedido);
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] PedidoDTO pedidoDTO)
+        public async Task<IActionResult> Create(PedidoDTO pedidoDTO)
         {
             if (pedidoDTO == null) return BadRequest();
   
@@ -44,7 +44,7 @@ namespace Ecommerce.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] PedidoDTO pedidoDTO)
+        public async Task<IActionResult> Update(int id, PedidoDTO pedidoDTO)
         {
             var existente = await _pedidoService.GetById(id);
             if (existente == null) return NotFound();
