@@ -9,7 +9,6 @@ namespace Ecommerce.Objetcs.DTOs.Entities
         public string Nome { get; set; } 
         public double Valor { get; set; }
         public double ValorTotal { get; set; }
-
         public TipoFrete TipoFrete { get; set; }
         public StatusPedido StatusPedido { get; set; } 
     }
